@@ -12,10 +12,18 @@ struct MainView: View {
     var body: some View {
         NavigationStack{
             ZStack{
-                Image(backgroundImage)
-                    .resizable()
-                    .frame(width: 450 * sizeScreenIphone(), height: 860 * sizeScreenIphone())
-                    .ignoresSafeArea()
+                if UIDevice.current.userInterfaceIdiom == .pad {
+                    Image(backgroundImage)
+                        .resizable()
+            
+                        .frame(width: 900 * sizeScreenIphone(), height: 1200 * sizeScreenIphone())
+                        .ignoresSafeArea()
+                }else{
+                        Image(backgroundImage)
+                            .resizable()
+                            .frame(width: 450 * sizeScreenIphone(), height: 860 * sizeScreenIphone())
+                            .ignoresSafeArea()
+                }
                 VStack{
                     NameView(text: "Verde Forest Journey", color: "GreenText")
                     Spacer()

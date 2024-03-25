@@ -19,10 +19,18 @@ struct SecondGameView: View {
     ]
     var body: some View {
         ZStack{
-            Image(backgroundImage)
-                .resizable()
-                .frame(width: 450 * sizeScreenIphone(), height: 860 * sizeScreenIphone())
-                .ignoresSafeArea()
+            if UIDevice.current.userInterfaceIdiom == .pad {
+                Image(backgroundImage)
+                    .resizable()
+        
+                    .frame(width: 900 * sizeScreenIphone(), height: 1200 * sizeScreenIphone())
+                    .ignoresSafeArea()
+            }else{
+                Image(backgroundImage)
+                    .resizable()
+                    .frame(width: 450 * sizeScreenIphone(), height: 860 * sizeScreenIphone())
+                    .ignoresSafeArea()
+            }
             VStack{
                 HStack{
                     BackButtonView()
