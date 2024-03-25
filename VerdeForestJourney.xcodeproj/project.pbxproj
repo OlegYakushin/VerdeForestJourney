@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		8B873B872BB0CE3400B365EB /* VerdeForestJourneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873B862BB0CE3400B365EB /* VerdeForestJourneyApp.swift */; };
-		8B873B892BB0CE3400B365EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873B882BB0CE3400B365EB /* ContentView.swift */; };
 		8B873B8B2BB0CE3700B365EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B873B8A2BB0CE3700B365EB /* Assets.xcassets */; };
 		8B873B8E2BB0CE3700B365EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B873B8D2BB0CE3700B365EB /* Preview Assets.xcassets */; };
+		8B873B952BB0D5FD00B365EB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873B942BB0D5FD00B365EB /* MainView.swift */; };
+		8B873B982BB0D74300B365EB /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B873B972BB0D74300B365EB /* Inter-Bold.ttf */; };
+		8B873B9A2BB0D75200B365EB /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B873B992BB0D75200B365EB /* Inter-Regular.ttf */; };
+		8B873B9D2BB0DD6900B365EB /* ChoseAGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873B9C2BB0DD6900B365EB /* ChoseAGameView.swift */; };
+		8B873B9F2BB0E04E00B365EB /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873B9E2BB0E04E00B365EB /* OptionsView.swift */; };
+		8B873BA12BB1C2F300B365EB /* FirstGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873BA02BB1C2F300B365EB /* FirstGameView.swift */; };
+		8B873BA32BB1C30200B365EB /* SecondGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873BA22BB1C30200B365EB /* SecondGameView.swift */; };
+		8B873BA52BB1C4E800B365EB /* SecondGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873BA42BB1C4E800B365EB /* SecondGameModel.swift */; };
+		8B873BA72BB1DE6A00B365EB /* FirstGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873BA62BB1DE6A00B365EB /* FirstGameModel.swift */; };
+		8B873BAB2BB1ED3300B365EB /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B873BAA2BB1ED3300B365EB /* FunctionForResize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B873B832BB0CE3400B365EB /* VerdeForestJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerdeForestJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B873B862BB0CE3400B365EB /* VerdeForestJourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeForestJourneyApp.swift; sourceTree = "<group>"; };
-		8B873B882BB0CE3400B365EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B873B8A2BB0CE3700B365EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B873B8D2BB0CE3700B365EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B873B942BB0D5FD00B365EB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8B873B972BB0D74300B365EB /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		8B873B992BB0D75200B365EB /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		8B873B9B2BB0D78100B365EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B873B9C2BB0DD6900B365EB /* ChoseAGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoseAGameView.swift; sourceTree = "<group>"; };
+		8B873B9E2BB0E04E00B365EB /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		8B873BA02BB1C2F300B365EB /* FirstGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGameView.swift; sourceTree = "<group>"; };
+		8B873BA22BB1C30200B365EB /* SecondGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGameView.swift; sourceTree = "<group>"; };
+		8B873BA42BB1C4E800B365EB /* SecondGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGameModel.swift; sourceTree = "<group>"; };
+		8B873BA62BB1DE6A00B365EB /* FirstGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGameModel.swift; sourceTree = "<group>"; };
+		8B873BAA2BB1ED3300B365EB /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +70,13 @@
 		8B873B852BB0CE3400B365EB /* VerdeForestJourney */ = {
 			isa = PBXGroup;
 			children = (
+				8B873B9B2BB0D78100B365EB /* Info.plist */,
 				8B873B862BB0CE3400B365EB /* VerdeForestJourneyApp.swift */,
-				8B873B882BB0CE3400B365EB /* ContentView.swift */,
+				8B873BAA2BB1ED3300B365EB /* FunctionForResize.swift */,
+				8B873BA92BB1ECB500B365EB /* View */,
+				8B873BA82BB1ECA900B365EB /* Model */,
 				8B873B8A2BB0CE3700B365EB /* Assets.xcassets */,
+				8B873B962BB0D71F00B365EB /* Fonts */,
 				8B873B8C2BB0CE3700B365EB /* Preview Content */,
 			);
 			path = VerdeForestJourney;
@@ -65,6 +88,36 @@
 				8B873B8D2BB0CE3700B365EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B873B962BB0D71F00B365EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B873B972BB0D74300B365EB /* Inter-Bold.ttf */,
+				8B873B992BB0D75200B365EB /* Inter-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8B873BA82BB1ECA900B365EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B873BA42BB1C4E800B365EB /* SecondGameModel.swift */,
+				8B873BA62BB1DE6A00B365EB /* FirstGameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B873BA92BB1ECB500B365EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B873B942BB0D5FD00B365EB /* MainView.swift */,
+				8B873B9C2BB0DD6900B365EB /* ChoseAGameView.swift */,
+				8B873B9E2BB0E04E00B365EB /* OptionsView.swift */,
+				8B873BA02BB1C2F300B365EB /* FirstGameView.swift */,
+				8B873BA22BB1C30200B365EB /* SecondGameView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B873B982BB0D74300B365EB /* Inter-Bold.ttf in Resources */,
 				8B873B8E2BB0CE3700B365EB /* Preview Assets.xcassets in Resources */,
+				8B873B9A2BB0D75200B365EB /* Inter-Regular.ttf in Resources */,
 				8B873B8B2BB0CE3700B365EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B873B892BB0CE3400B365EB /* ContentView.swift in Sources */,
+				8B873BA32BB1C30200B365EB /* SecondGameView.swift in Sources */,
+				8B873B952BB0D5FD00B365EB /* MainView.swift in Sources */,
 				8B873B872BB0CE3400B365EB /* VerdeForestJourneyApp.swift in Sources */,
+				8B873B9F2BB0E04E00B365EB /* OptionsView.swift in Sources */,
+				8B873B9D2BB0DD6900B365EB /* ChoseAGameView.swift in Sources */,
+				8B873BA72BB1DE6A00B365EB /* FirstGameModel.swift in Sources */,
+				8B873BA12BB1C2F300B365EB /* FirstGameView.swift in Sources */,
+				8B873BAB2BB1ED3300B365EB /* FunctionForResize.swift in Sources */,
+				8B873BA52BB1C4E800B365EB /* SecondGameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +337,11 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VerdeForestJourney/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +366,11 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VerdeForestJourney/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
