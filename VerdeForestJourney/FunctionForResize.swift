@@ -12,7 +12,10 @@ func sizeScreenIphone() -> CGFloat {
        let screenHeight = UIScreen.main.bounds.height
        
        if UIDevice.current.userInterfaceIdiom == .pad {
-           if screenWidth > 1024 {
+           if screenWidth == 1024 {
+               return screenWidth / 1024
+           }
+          else if screenWidth > 1024 {
                return screenWidth / 1024
            } else if screenWidth > 768 {
                return screenWidth / 834

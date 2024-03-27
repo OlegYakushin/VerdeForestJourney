@@ -13,18 +13,7 @@ struct FirstGameView: View {
     @StateObject var gameModel = GameFirstModel()
     var body: some View {
         ZStack{
-            if UIDevice.current.userInterfaceIdiom == .pad {
-                Image(backgroundImage)
-                    .resizable()
-        
-                    .frame(width: 900 * sizeScreenIphone(), height: 1200 * sizeScreenIphone())
-                    .ignoresSafeArea()
-            }else{
-                Image(backgroundImage)
-                    .resizable()
-                    .frame(width: 450 * sizeScreenIphone(), height: 860 * sizeScreenIphone())
-                    .ignoresSafeArea()
-            }
+            BackgroundView(backgroundImage: backgroundImage)
             VStack{
                 HStack{
                     BackButtonView()

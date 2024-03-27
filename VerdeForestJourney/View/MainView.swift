@@ -12,18 +12,7 @@ struct MainView: View {
     var body: some View {
         NavigationStack{
             ZStack{
-                if UIDevice.current.userInterfaceIdiom == .pad {
-                    Image(backgroundImage)
-                        .resizable()
-            
-                        .frame(width: 900 * sizeScreenIphone(), height: 1200 * sizeScreenIphone())
-                        .ignoresSafeArea()
-                }else{
-                        Image(backgroundImage)
-                            .resizable()
-                            .frame(width: 450 * sizeScreenIphone(), height: 860 * sizeScreenIphone())
-                            .ignoresSafeArea()
-                }
+               BackgroundView(backgroundImage: backgroundImage)
                 VStack{
                     NameView(text: "Verde Forest Journey", color: "GreenText")
                     Spacer()
@@ -43,6 +32,9 @@ struct MainView: View {
                     
                 }
                 .padding(50 * sizeScreenIphone())
+            }
+            .onAppear{
+                print(UIScreen.main.bounds.width)
             }
         }
     }
@@ -89,6 +81,39 @@ struct BackButtonView: View {
                 .font(.custom("Inter-Bold", size: 12 * sizeScreenIphone()))
                 .foregroundColor(.white)
             )
+    }
+}
+
+struct BackgroundView: View{
+    var backgroundImage: String
+    var body: some View {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            if UIScreen.main.bounds.width == 1024{
+                Image(backgroundImage)
+                    .resizable()
+                    
+                    .frame(width: 1030 * sizeScreenIphone(), height: 1400 * sizeScreenIphone())
+                    .ignoresSafeArea()
+            }
+            else if UIScreen.main.bounds.width == 744 {
+                Image(backgroundImage)
+                    .resizable()
+                
+                    .frame(width: 800 * sizeScreenIphone(), height: 1200 * sizeScreenIphone())
+                    .ignoresSafeArea()
+            }else{
+                Image(backgroundImage)
+                    .resizable()
+                
+                    .frame(width: 900 * sizeScreenIphone(), height: 1200 * sizeScreenIphone())
+                    .ignoresSafeArea()
+            }
+        }else{
+            Image(backgroundImage)
+                .resizable()
+                .frame(width: 450 * sizeScreenIphone(), height: 860 * sizeScreenIphone())
+                .ignoresSafeArea()
+        }
     }
 }
 
